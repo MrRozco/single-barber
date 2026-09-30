@@ -1,0 +1,60 @@
+/* Generated from design-system/tokens.json. Dark is the default theme; set <html data-theme="light"> for light. */
+
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #0e0e0f;
+  --surface-raised: #17171a;
+  --surface-sunken: #080809;
+  --ink: #f5f2ec;
+  --ink-muted: #a9a49b;
+  --brass: #c9a45c;
+  --on-brass: #121212;
+  --brass-soft: #241f16;
+  --line: #26262a;
+  --line-strong: #6b6b73;
+  --pole-red: #d64533;
+  --pole-blue: #3d6fb3;
+  --pole-white: #f5f2ec;
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.04), 0 16px 40px rgba(0, 0, 0, 0.5);
+  --shadow-bar: 0 -8px 24px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --surface: #f5f2ec;
+  --surface-raised: #ffffff;
+  --surface-sunken: #ebe6dc;
+  --ink: #111112;
+  --ink-muted: #5a554c;
+  --brass: #7a5c22;
+  --on-brass: #ffffff;
+  --brass-soft: #efe4cc;
+  --line: #ddd6c8;
+  --line-strong: #8a8272;
+  --pole-red: #b3261e;
+  --pole-blue: #2f5f9e;
+  --pole-white: #ffffff;
+  --shadow-card: 0 1px 2px rgba(17, 17, 18, 0.06), 0 12px 28px rgba(17, 17, 18, 0.1);
+  --shadow-bar: 0 -6px 20px rgba(17, 17, 18, 0.12);
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-10: 64px;
+  --space-12: 96px;
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+  --z-sticky: 50;
+  --font-display: "Big Shoulders Display", "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
